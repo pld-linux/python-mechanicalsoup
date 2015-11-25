@@ -6,12 +6,12 @@
 %define 	module	mechanicalsoup
 Summary:	A Python library for automating interaction with websites
 Name:		python-%{module}
-Version:	0.3.1
+Version:	0.4.0
 Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/M/MechanicalSoup/MechanicalSoup-%{version}.zip
-# Source0-md5:	b60b0f0f1bc5eb3652ea5f0c6b7d24c1
+# Source0-md5:	f6eb7d7fc69fb6ce434b64a3a92c7e48
 URL:		https://github.com/hickford/MechanicalSoup
 BuildRequires:	rpm-pythonprov
 %if %{with python2}
