@@ -13,6 +13,7 @@ Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/M/MechanicalSoup/MechanicalSoup-%{version}.zip
 # Source0-md5:	f6eb7d7fc69fb6ce434b64a3a92c7e48
 URL:		https://github.com/hickford/MechanicalSoup
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	rpm-pythonprov
 %if %{with python2}
 BuildRequires:	python-setuptools
