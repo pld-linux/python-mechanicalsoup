@@ -7,7 +7,7 @@
 Summary:	A Python library for automating interaction with websites
 Name:		python-%{module}
 Version:	0.4.0
-Release:	7
+Release:	8
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/M/MechanicalSoup/MechanicalSoup-%{version}.zip
